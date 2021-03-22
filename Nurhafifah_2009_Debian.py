@@ -1,4 +1,6 @@
-kata = input("Masukkan Kalimatmu : ")  
+kata = input("Masukkan Kalimatmu : ") 
+
+daftar = {}
 for karakter in kata: 
     if karakter in daftar: 
         daftar[karakter] += 1  
